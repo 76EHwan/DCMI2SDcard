@@ -3,7 +3,7 @@
 이 프로젝트는 STM32H743VIT6 마이크로컨트롤러의 **DCMI(Digital Camera Interface)**를 활용하여 카메라 모듈로부터 영상 데이터를 수신하고, 이를 TFT LCD에 실시간으로 출력하며, SD 카드에 이미지 파일로 저장하는 시스템입니다.
 
 ## 개요 (Overview)
-고성능 ARM Cortex-M7 코어를 탑재한 STM32H743을 기반으로, 하드웨어 카메라 인터페이스(DCMI)와 DMA를 이용해 영상을 고속으로 획득합니다. 획득한 영상은 SPI 기반의 TFT LCD 화면에 실시간으로 렌더링되며, FatFs 파일 시스템을 통해 SD 카드에 저장할 수 있습니다.
+고성능 ARM Cortex-M7 코어를 탑재한 STM32H743VIT6을 기반으로, 하드웨어 카메라 인터페이스(DCMI)와 DMA를 이용해 영상을 고속으로 획득합니다. 획득한 영상은 SPI 기반의 TFT LCD 화면에 실시간으로 렌더링되며, FatFs 파일 시스템을 통해 SD 카드에 저장할 수 있습니다.
 
 ## 주요 하드웨어 구성 (Hardware Components)
 * **MCU**: STM32H743VIT6 (WeAct Studio 보드 등 호환)
