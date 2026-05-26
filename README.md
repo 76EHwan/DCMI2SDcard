@@ -1,4 +1,4 @@
-# STM32H743VITX DCMI Camera to SD Card & LCD
+# STM32H743VIT6 DCMI Camera to SD Card & LCD
 
 이 프로젝트는 STM32H743VIT6 마이크로컨트롤러의 **DCMI(Digital Camera Interface)**를 활용하여 카메라 모듈로부터 영상 데이터를 수신하고, 이를 TFT LCD에 실시간으로 출력하며, SD 카드에 이미지 파일로 저장하는 시스템입니다.
 
